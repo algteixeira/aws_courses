@@ -53,3 +53,17 @@ Sistema de fila da AWS, onde se uma parte do sistema travar, não danifica a apl
 
 #### LAMBDAS
 Os lambdas são basicamente uma função que obedece ao código designado à ela e que será executada de acordo com um trigger pré-definido. Os lambdas são utilizados para computação serverless, que é quando diferente do EC2, você não precisa se preocupar em setar o servidor. Ex: Quando existirem menos de 50 pessoas acessando o site simultâneamente, manda um e-mail com essa informação para o responsável.
+
+### Módulo 3
+
+Deve-se sempre levar algumas coisas em conta na hora de escolher a região na qual estará hospedado o seu servidor.
+**Requisitos legais:** Se sua empresa precisa manter os dados dentro de um país X, então escolha a hospedagem nessa região.
+**Proximidade com clientes:** Se quem usa seu serviço mora nos EUA, escolha a hospedagem lá, para reduzir o tempo da requisição.
+**Disponibilidade de serviços:** Nem todos serviços AWS estão disponíveis em todas regiões já, então leve isso sempre em consideração.
+**Custos:** Algumas regiões pagam mais impostos e tem custo de operação maior, logo, isso é refletido no valor que você paga.
+
+#### Zonas de disponibilidade
+São zonas que possuem um ou vários datacenters distribuidos. Elas são uma forma de divisão de datacenters importante pois se, por exemplo, um desastre natural afetar uma zona, ainda assim existem outras nas redondezas para efetuar seu serviço.
+
+#### Amazon Cloudfront
+É a CDN da AWS, que faz com que um cliente não tenha que fazer uma requisição no outro lado do mundo para solicitar um dado, assim, ele consegue buscar o dado na região mais próxima possível onde ele está disponível. Isso acontece por meio de um site que funcionará como cache, mantendo cópias dos dados do conteúdo.
