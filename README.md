@@ -12,6 +12,22 @@ In this repository i'll resume in PT-BR what i've learned from AWS skillbuilder 
 
 * [Módulo 2](#módulo-2)
 
+* [Módulo 3](#módulo-3)
+
+* [Módulo 4](#módulo-4)
+
+* [Módulo 5](#módulo-5)
+
+* [Módulo 6](#módulo-6)
+
+* [Módulo 7](#módulo-7)
+
+* [Módulo 8](#módulo-8)
+
+* [Módulo 9](#módulo-9)
+
+* [Módulo 10](#módulo-10)
+
 ## Módulos
 
 ### Módulo 1
