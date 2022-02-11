@@ -8,7 +8,7 @@ In this repository i'll resume in PT-BR what i've learned from AWS skillbuilder 
 
 # Sumário
 
-* [AWS CPE](#AWS-Cloud-Practitioner-Essentials-1)
+* [AWS CPE](#aws-cloud-practitioner-essentials-1)
 
 * [Módulo 1](#módulo-1)
 
